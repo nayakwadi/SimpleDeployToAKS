@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+    name: demoforecastapp-deployment
+    labels: 
+        app: demo-webapi-app
+        environment: development
+spec: 
+    replicas: 1
+    selector: 
+        matchLabels:
+            app: demoforecastapp
+    template:
+        metadata:
+            labels:
+                app: demoforecastapp
+        spec:
+            containers:
+                - name: demoforecastapp-container
+                  image: sndevopsacr.azurecr.io/demoforecastapp:latest
+                  ports:
+                   - containerPort: 80
+                  env:
+                   - name: ASPNETCORE_ENVIRONMENT
+                     value: Development
