@@ -1,1 +1,28 @@
 # SimpleDeployToAKS
+
+## What is this project?
+ This is a startedr kind of project to get a hands-on practice for Containarizing and Delpoying  simple ASP.Net core web app (weather forecast) into Azure Kubernetes Cluster
+
+## Disclaimer: The Azure resources used in this project may incur costs. Please review the potential charges carefully and ensure that you delete the resources after practice to avoid unnecessary expenses.
+
+## Steps
+
+### 1. Prepare Local Set up
+
+-   Refer to the 'Initial_setup.md' file in the project folder.
+
+### 2. Prepare the ASP.Net core Web App 
+
+-   Refer to the 'DemoForecastSolution' Folder
+-   Please note some changes are made to app.UseSwaggerUI to access the swagger endpoint directly(without mentioning any paths)
+-   Please note the settings mentioned in 'launchSettings.json' file
+
+### 3. Build, Tag, and Push Docker Image
+
+-   Run the docker build, tag, and push commands (refer to commands
+    mentioned in `docker_acr_instructions.txt`).
+
+### 4. Deploy to AKS using kubectl
+
+-   Prepare Deployment manifest, service manifest and deploy the application in AKS(refer to commands
+    mentioned in `aks_deployment_instructions.txt`).
