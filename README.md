@@ -1,7 +1,7 @@
 # SimpleDeployToAKS
 
 ## What is this project?
- This is a startedr kind of project to get a hands-on practice for Containarizing and Delpoying  simple ASP.Net core web app (weather forecast) into Azure Kubernetes Cluster
+ This is a starter kind of project to get a hands-on practice for Containarizing and Delpoying  simple ASP.Net core web app (weather forecast) into Azure Kubernetes Cluster
 
 ## Disclaimer: The Azure resources used in this project may incur costs. Please review the potential charges carefully and ensure that you delete the resources after practice to avoid unnecessary expenses.
 
