@@ -14,15 +14,13 @@
 ### 2. Prepare the ASP.Net core Web App 
 
 -   Refer to the 'DemoForecastSolution' Folder
--   Please note some changes are made to app.UseSwaggerUI to access the swagger endpoint directly(without mentioning any paths)
+-   Please note some changes in the file Program.cs are made to app.UseSwaggerUI to access the swagger endpoint directly(without mentioning any paths)
 -   Please note the settings mentioned in 'launchSettings.json' file
 
 ### 3. Build, Tag, and Push Docker Image
 
--   Run the docker build, tag, and push commands (refer to commands
-    mentioned in `docker_acr_instructions.txt`).
+-   Run the docker build, tag, and push commands (refer to commands mentioned in `docker_acr_instructions.txt`).
 
 ### 4. Deploy to AKS using kubectl
 
--   Prepare Deployment manifest, service manifest and deploy the application in AKS(refer to commands
-    mentioned in `aks_deployment_instructions.txt`).
+-   Prepare Deployment manifest, service manifest and deploy the application in AKS(refer to commands mentioned in `aks_deployment_instructions.txt`).
