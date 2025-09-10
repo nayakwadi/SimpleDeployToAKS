@@ -65,3 +65,5 @@ kubectl describe service demoforecastapp-service
 ```
 
 ### 5. In a browser, go to LoadBalancer IP address, it should take you to the swagger page. 
+
+<img width="723" height="516" alt="image" src="https://github.com/user-attachments/assets/ac5ff1ff-092a-4ec5-b7d1-56b69d147e47" />
