@@ -5,6 +5,9 @@
 
 ## Disclaimer: The Azure resources used in this project may incur costs. Please review the potential charges carefully and ensure that you delete the resources after practice to avoid unnecessary expenses.
 
+<img width="573" height="580" alt="image" src="https://github.com/user-attachments/assets/ab7cc29a-9d26-4743-a066-78cef35d78c2" />
+
+
 ## Steps
 
 ### 1. Prepare Local Set up
