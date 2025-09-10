@@ -19,8 +19,8 @@
 
 ### 3. Build, Tag, and Push Docker Image
 
--   Run the docker build, tag, and push commands (refer to commands mentioned in `docker_acr_instructions.txt`).
+-   Run the docker build, tag, and push commands (refer to commands mentioned in `docker_acr_instructions.md`).
 
 ### 4. Deploy to AKS using kubectl
 
--   Prepare Deployment manifest, service manifest and deploy the application in AKS(refer to commands mentioned in `aks_deployment_instructions.txt`).
+-   Prepare Deployment manifest, service manifest and deploy the application in AKS(refer to commands mentioned in `aks_deployment_instructions.md`).
