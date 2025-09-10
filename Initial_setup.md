@@ -125,15 +125,3 @@ kubectl get namespaces
 ```
 ---
 
-## ✅ You're Ready!
-
-You now have a complete local environment for Azure-based Kubernetes development using AKS, Docker, and kubectl.
-
----
-
-```
-
----
-
-Let me know if you want this split into multiple files (e.g., `azure-setup.md`, `k8s-setup.md`), or converted into a `.txt`, `.rst`, or other formats.
-```
